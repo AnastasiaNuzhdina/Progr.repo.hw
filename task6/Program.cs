@@ -19,7 +19,7 @@ namespace task6
             {
                 Console.WriteLine("Введите ход белого ферзя");
                 var whiteQueenMove = Console.ReadLine();
-                if (CanQueenMakeSafeMove(whiteQueenMove, whiteQueenMove, blackBishopPosition))
+                if (CanQueenMakeSafeMove(whiteQueenPosition, whiteQueenMove, blackBishopPosition))
                     Console.WriteLine("Ферзь может ходить");
                 else
                     Console.WriteLine("Ферзь не может ходить");
